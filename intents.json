@@ -1,0 +1,440 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "hi",
+      "how are you?",
+      "is anyone there?",
+      "hello",
+      "good day",
+      "what's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??",
+      "hello cognifront",
+      "hello bot",
+      "hey"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "Cognifront Intern!"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of company",
+      "what is company timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the company open",
+      "company timing",
+      "what about company timing",
+      "is company open on saturday",
+      "tell something about company timing",
+      "what is the company  hours",
+      "when should i come to company",
+      "when should i visit comapany",
+      "what is company time",
+      "company timing",
+      "timing company",
+      "when cognifront is open?",
+      "when can i visit cognifront"
+   ],
+   "responses": [
+      "We are open 10am-6pm Monday-Saturday!"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact company",
+      "company telephone number",
+      "company number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "company phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "cognifront number?",
+      "cognifront phone number?",
+      "cognifront phone",
+      "cognifront contact",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: +919730045145 "
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your company?",
+      "courses?",
+      "courses offered",
+      "courses offered in cognifront",
+      "courses you offer",
+      "domains?",
+      "courses available at cognifront?",
+      "domain available at your company?",
+      "what are the courses in cognifront?",
+      "what are domains in cognifront?",
+      "what are courses in cognifront?",
+      "domains available in cognifront?",
+      "can you tell me the courses available in cognifront",
+      "can you tell me the domain available in cognifront",
+      "which domains are available",
+      "what are domains",
+      "which domains you provide"
+
+   ],
+   "responses": [
+      "Our Company offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and etc Engineering. Visit our Website for more information!"
+   ],
+   "context_set": "",
+   "links":[
+      "https://cognifront.com/istudents.php#certprograms"
+   ]
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "course fee",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for python development",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of courses",
+      "how much is the fees",
+      "iot fees",
+      "fees for certification courses",
+      "fees for machine learing course",
+      "fees for deep learing program",
+      "fees for full stack web development",
+      "fees for robotics",
+      "fees for iot"
+   ],
+   "responses": [
+      "We provide lots of cources and internships also, for more information you can visit our website!"
+   ],
+   "context_set": "",
+   "links":[
+      "https://cognifront.com/"
+   ]
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the company located",
+      "company is located at",
+      "where is company",
+      "where is company located",
+      "address of company",
+      "how to reach company",
+      "company location",
+      "company address",
+      "where is company",
+      "wheres the company",
+      "how can I reach company",
+      "whats is the company address",
+      "what is the address of company",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "You Can visit Cognifront at Trishala, Ramnagar, Behind Mahalakshmi Theatre, Panchawati, Nashik 422003 Maharashtra, Bharat (India)"
+   ],
+   "context_set": "",
+   "links":[
+      "https://maps.app.goo.gl/XxpCEiChivh9yra49"
+   ]
+},
+
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for courses",
+      "documents needed at the time of enrollment",
+      "documents needed during internship",
+      "documents required for internship",
+      "documents required at the time of internship enrollment",
+      "documents required during enrollment",
+      "What document are required for enrollment",
+      "Which document to bring for internship",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for internships",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit <a href='https://cognifront.com'>Website</a>"
+   ],
+   "context_set": "",
+   "links":[]
+},
+
+ {
+   "tag": "package",
+   "patterns": [
+      "What is average package",
+      "package",
+      "what is package",
+      "salary"
+   ],
+   "responses": [
+      "To know more about Salary You can Visit Our Website"
+   ],
+   "context_set": "",
+   "links":[
+      "https://cognifront.com/"
+   ]
+},
+ {
+   "tag": "owner",
+   "patterns": [
+      "Who is owner",
+      "who is founder",
+      "who is ceo",
+      "name of founder",
+      "owner",
+      "founder",
+      "cognifront owner name",
+      "who is cognifront owner",
+      "who is cognifront ceo",
+      "who is cognifront founder"
+   ],
+   "responses": [
+      "Founder and CEO of company is Suchit Twari"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "i love you",
+      "will you marry me",
+      "do you love me",
+      "what's your favorite color?",
+      "tell me a joke.",
+      "how are you feeling today?",
+      "what's your favorite movie?",
+      "do you have any siblings?",
+      "what is the meaning of life?",
+      "tell me something interesting.",
+      "what's your favorite food?",
+      "how old are you?",
+      "what is your purpose?"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": "",
+   "links":[]
+},
+
+
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "oky",
+      "kk",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding Internships, Cognifront and many more!",
+      "You can ask me questions regarding Cognifront, and I will try to answer them!"
+   ],
+   "context_set": "",
+   "links":[]
+},
+ {
+   "tag": "internship",
+   "patterns": [
+      "how to apply for internship",
+      "where to apply for internship",
+      "internship",
+      "is internships available",
+      "how can i get internship"
+   ],
+   "responses": [
+      "You can apply for interenship <a href='https://www.cognifront.com/iapply.php?r=internship'>here</a>"
+   ],
+   "context_set": "",
+   "links":[
+      "https://databasetelegram.000webhostapp.com/Videos/interns-handbook.pdf"
+   ]
+},
+{
+   "tag": "feedback",
+   "patterns": [
+      "send me feedback of students",
+      "feedbacks",
+      "give feedbacks",
+      "students feedbacks",
+      "send feedbacks"
+   ],
+   "responses": [
+      "Here are some Feedbacks from our Interns"
+   ],
+   "context_set": "",
+   "links":[
+      "https://databasetelegram.000webhostapp.com/Videos/intern1.mp4",
+      "https://databasetelegram.000webhostapp.com/Videos/intern2.mp4",
+      "https://databasetelegram.000webhostapp.com/Videos/intern4.mp4",
+      "https://databasetelegram.000webhostapp.com/Videos/intern5.mp4"
+   ]
+}
+]
+}
